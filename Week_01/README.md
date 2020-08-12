@@ -15,11 +15,11 @@
 
 额外刷题，来自LC日推题，群内每日一题，随性刷题等
 
-| #    | 题目名                                                       | 难度  | 关键词           | 已过遍数 |
-| ---- | ------------------------------------------------------------ | ----- | ---------------- | -------- |
-| 130  | [被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/) | 💛中等 | DFS, BFS, 并查集 | 1        |
-|      |                                                              |       |                  |          |
-|      |                                                              |       |                  |          |
+| #    | 题目名                                                       | 难度  | 关键词                                           | 已过遍数 |
+| ---- | ------------------------------------------------------------ | ----- | ------------------------------------------------ | -------- |
+| 130  | [被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/) | 💛中等 | DFS, BFS, 并查集                                 | 1        |
+| 92   | [反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii/) | 💛中等 | [链表](https://leetcode-cn.com/tag/linked-list/) | 1        |
+|      |                                                              |       |                                                  |          |
 
 实践题
 
@@ -29,7 +29,7 @@
 | 11   | [盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/) | 💛中等 | [数组](https://leetcode-cn.com/tag/array/)，[双指针](https://leetcode-cn.com/tag/two-pointers/) | 3        |
 | 70   | [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)  | 💚简单 | DP                                                           | 3        |
 | 15   | [三数之和](https://leetcode-cn.com/problems/3sum/)           | 💛中等 | [数组](https://leetcode-cn.com/tag/array/)，[双指针](https://leetcode-cn.com/tag/two-pointers/)，哈希表 | 2        |
-| 206  | [反转链表](https://leetcode-cn.com/problems/reverse-linked-list/) | 💚简单 | 链表                                                         | 1        |
+| 206  | [反转链表](https://leetcode-cn.com/problems/reverse-linked-list/) | 💚简单 | [链表](https://leetcode-cn.com/tag/linked-list/)             | 2        |
 |      | [两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs) | 💚简单 |                                                              |          |
 |      | [环形链表](https://leetcode-cn.com/problems/linked-list-cycle) | 💛中等 |                                                              |          |
 |      | [环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii) | 💛中等 |                                                              |          |
@@ -45,13 +45,13 @@
 | ---- | ------------------------------------------------------------ | ----- | ------------------------------------------------------------ | -------- |
 | -    | 改写 Deque (用add first/last)                                | -     | 设计，双端队列                                               | 见下文   |
 | -    | 分析 Queue 和 Priority Queue 源码                            | -     | 设计，队列                                                   | 见下文   |
-| 26   | [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | 💚简单 | [数组](https://leetcode-cn.com/tag/array/)，[双指针](https://leetcode-cn.com/tag/two-pointers/) | 1        |
+| 26   | [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | 💚简单 | [数组](https://leetcode-cn.com/tag/array/)，[双指针](https://leetcode-cn.com/tag/two-pointers/) | 2        |
 |      | [旋转数组](https://leetcode-cn.com/problems/rotate-array/)   | 💚简单 |                                                              |          |
 |      | [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | 💚简单 |                                                              |          |
 |      | [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/) | 💚简单 |                                                              |          |
-| 1    | [两数之和](https://leetcode-cn.com/problems/two-sum/)        | 💚简单 | [数组](https://leetcode-cn.com/tag/array/)，哈希表           | 2        |
-| 283  | [移动零](https://leetcode-cn.com/problems/move-zeroes/)      | 💚简单 | [数组](https://leetcode-cn.com/tag/array/)，[双指针](https://leetcode-cn.com/tag/two-pointers/) | 2        |
-| 66   | [加一](https://leetcode-cn.com/problems/plus-one/)           | 💚简单 | [数组](https://leetcode-cn.com/tag/array/)                   | 2        |
+| 1    | [两数之和](https://leetcode-cn.com/problems/two-sum/)        | 💚简单 | [数组](https://leetcode-cn.com/tag/array/)，哈希表           | 3        |
+| 283  | [移动零](https://leetcode-cn.com/problems/move-zeroes/)      | 💚简单 | [数组](https://leetcode-cn.com/tag/array/)，[双指针](https://leetcode-cn.com/tag/two-pointers/) | 3        |
+| 66   | [加一](https://leetcode-cn.com/problems/plus-one/)           | 💚简单 | [数组](https://leetcode-cn.com/tag/array/)                   | 3        |
 |      | [设计循环双端队列](https://leetcode.com/problems/design-circular-deque) | 💛中等 |                                                              |          |
 |      | [接雨水](https://leetcode.com/problems/trapping-rain-water/) | 🧡困难 |                                                              |          |
 
