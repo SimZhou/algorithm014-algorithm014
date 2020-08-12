@@ -11,32 +11,49 @@
 
 
 
-## 刷题记录
+## 刷题记录、
 
-本周做题
+额外刷题，来自LC日推题，群内每日一题，随性刷题等
 
-| #    | 题目名                                                       | 难度  | 关键词               | 已过遍数 |
-| ---- | ------------------------------------------------------------ | ----- | -------------------- | -------- |
-| 11   | [盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/) | 💛中等 | 数组，双指针         | 2        |
-| 70   | [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)  | 💚简单 | DP                   | 2        |
-| 15   | [三数之和](https://leetcode-cn.com/problems/3sum/)           | 💛中等 | 数组，双指针，哈希表 | 1        |
-| 66   | [加一](https://leetcode-cn.com/problems/plus-one/)           | 💚简单 | 数组                 | 2        |
+| #    | 题目名                                                       | 难度  | 关键词           | 已过遍数 |
+| ---- | ------------------------------------------------------------ | ----- | ---------------- | -------- |
+| 130  | [被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/) | 💛中等 | DFS, BFS, 并查集 | 1        |
+|      |                                                              |       |                  |          |
+|      |                                                              |       |                  |          |
+
+实践题
+
+| #    | 题目名                                                       | 难度  | 关键词                                                       | 已过遍数 |
+| ---- | ------------------------------------------------------------ | ----- | ------------------------------------------------------------ | -------- |
+| 146  | [LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/)   | 💛中等 | [设计](https://leetcode-cn.com/tag/design/)                  | 3        |
+| 11   | [盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/) | 💛中等 | [数组](https://leetcode-cn.com/tag/array/)，[双指针](https://leetcode-cn.com/tag/two-pointers/) | 3        |
+| 70   | [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)  | 💚简单 | DP                                                           | 3        |
+| 15   | [三数之和](https://leetcode-cn.com/problems/3sum/)           | 💛中等 | [数组](https://leetcode-cn.com/tag/array/)，[双指针](https://leetcode-cn.com/tag/two-pointers/)，哈希表 | 2        |
+| 206  | [反转链表](https://leetcode-cn.com/problems/reverse-linked-list/) | 💚简单 | 链表                                                         | 1        |
+|      | [两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs) | 💚简单 |                                                              |          |
+|      | [环形链表](https://leetcode-cn.com/problems/linked-list-cycle) | 💛中等 |                                                              |          |
+|      | [环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii) | 💛中等 |                                                              |          |
+|      | [K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | 🧡困难 |                                                              |          |
+|      | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) |       |                                                              |          |
+|      | [最小栈](https://leetcode-cn.com/problems/min-stack/)        |       |                                                              |          |
+|      | [柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram) |       |                                                              |          |
+|      | [滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum) |       |                                                              |          |
 
 作业题
 
-| #    | 题目名                                                       | 难度  | 关键词       | 已过遍数 |
-| ---- | ------------------------------------------------------------ | ----- | ------------ | -------- |
-|      | 改写 Deque (用add first/last)                                |       |              |          |
-|      | 分析 Queue 和 Priority Queue                                 |       |              |          |
-| 26   | [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | 💚简单 | 数组，双指针 |          |
-|      | [旋转数组](https://leetcode-cn.com/problems/rotate-array/)   | 💚简单 |              |          |
-|      | [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | 💚简单 |              |          |
-|      | [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/) | 💚简单 |              |          |
-| 1    | [两数之和](https://leetcode-cn.com/problems/two-sum/)        | 💚简单 | 数组，哈希表 | 2        |
-| 283  | [移动零](https://leetcode-cn.com/problems/move-zeroes/)      | 💚简单 | 数组，双指针 | 1        |
-|      | [加一](https://leetcode-cn.com/problems/plus-one/)           | 💚简单 |              |          |
-|      | [设计循环双端队列](https://leetcode.com/problems/design-circular-deque) | 💛中等 |              |          |
-|      | [接雨水](https://leetcode.com/problems/trapping-rain-water/) | 🧡困难 |              |          |
+| #    | 题目名                                                       | 难度  | 关键词                                                       | 已过遍数 |
+| ---- | ------------------------------------------------------------ | ----- | ------------------------------------------------------------ | -------- |
+| -    | 改写 Deque (用add first/last)                                | -     | 设计，双端队列                                               | 见下文   |
+| -    | 分析 Queue 和 Priority Queue 源码                            | -     | 设计，队列                                                   | 见下文   |
+| 26   | [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | 💚简单 | [数组](https://leetcode-cn.com/tag/array/)，[双指针](https://leetcode-cn.com/tag/two-pointers/) | 1        |
+|      | [旋转数组](https://leetcode-cn.com/problems/rotate-array/)   | 💚简单 |                                                              |          |
+|      | [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | 💚简单 |                                                              |          |
+|      | [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/) | 💚简单 |                                                              |          |
+| 1    | [两数之和](https://leetcode-cn.com/problems/two-sum/)        | 💚简单 | [数组](https://leetcode-cn.com/tag/array/)，哈希表           | 2        |
+| 283  | [移动零](https://leetcode-cn.com/problems/move-zeroes/)      | 💚简单 | [数组](https://leetcode-cn.com/tag/array/)，[双指针](https://leetcode-cn.com/tag/two-pointers/) | 2        |
+| 66   | [加一](https://leetcode-cn.com/problems/plus-one/)           | 💚简单 | [数组](https://leetcode-cn.com/tag/array/)                   | 2        |
+|      | [设计循环双端队列](https://leetcode.com/problems/design-circular-deque) | 💛中等 |                                                              |          |
+|      | [接雨水](https://leetcode.com/problems/trapping-rain-water/) | 🧡困难 |                                                              |          |
 
 
 
@@ -50,11 +67,11 @@
 
 跳表：带有跳表索引的链表，只能用于**元素有序**的情况下，用来取代平衡树二分查找
 
-|          | 左append | 右append | 查询     | 插入     | 删除     |
-| -------- | -------- | -------- | -------- | -------- | -------- |
-| 数组     | O(1)     | O(1)     | O(1)     | O(n)     | O(n)     |
-| 普通链表 | O(1)     | O(1)     | O(n)     | O(1)     | O(1)     |
-| 跳表     | O(1)     | O(1)     | O(log n) | O(log n) | O(log n) |
+|          | 左append | 右append | 查询         | 插入         | 删除         |
+| -------- | -------- | -------- | ------------ | ------------ | ------------ |
+| 数组     | O(1)     | O(1)     | O(1)         | **O(n)**     | **O(n)**     |
+| 普通链表 | O(1)     | O(1)     | **O(n)**     | O(1)         | O(1)         |
+| 跳表     | O(1)     | O(1)     | **O(log n)** | **O(log n)** | **O(log n)** |
 
 空间复杂度上，数组最少，普通链表第二，跳表最高，但，都是O(n)。
 
@@ -64,3 +81,321 @@
 
 ### 2. 栈和队列
 
+栈（Stack）：先入后出（LIFO/FILO）
+
+队列（Queue）：先入先出（FIFO）
+
+|      | 左append | 右append | 查询     | 插入 | 删除 |
+| ---- | -------- | -------- | -------- | ---- | ---- |
+| 栈   | -        | O(1)     | **O(n)** | -    | O(1) |
+| 队列 | -        | O(1)     | **O(n)** | -    | O(1) |
+
+各数据结构复杂度对比网站：https://www.bigocheatsheet.com/
+
+在python中，可以用heapq实现PriorityQueue，用collections.deque实现栈/队列
+
+
+
+#### 改写Deque（Python）
+
+简单实现deque对象，使其具有 addfirst() 和 addlast() 接口：
+
+```python
+class Deque(list):
+    def __init__(self):
+        super().__init__()
+    	self.list = []
+    def addfirst(self, num):
+        '''
+        我这里继承list来实现的addfirst接口，没有办法直接对原数组进行修改，不知道这里应该怎么写了
+        self = [num] + self 不管用；开辟新空间然后 return [num] + self 可以，但不是原地修改
+        感觉python可能没有提供这个接口，所以，差不多就这意思吧。
+        '''
+        return [num] + self
+    
+    def addlast(self, num):
+        self.append(num)
+        
+    def popleft(self):
+        x = self[0]
+        self.__delitem__(0)
+        return x
+    
+    def popright(self):
+        x = self[-1]
+        self.__delitem__(-1)
+        return x
+```
+
+
+
+#### 分析Queue和Priority Queue源码（Python）
+
+Python中的 [Queue](https://docs.python.org/3/library/queue.html#queue.Queue) 和 [PriorityQueue](https://docs.python.org/3/library/queue.html#queue.PriorityQueue) 都在 queue 这个模块中，以下是源码，我把部分注释翻译了一下
+
+**Queue**: `Miniconda3\Lib\queue.py`文件 `Line 27-217`
+
+```python
+class Queue:
+    '''创建一个给定maxsize的队列.
+    如果 maxsize <= 0, 队列大小是无穷大（下面可以看到默认值为0）.
+    '''
+    
+    def __init__(self, maxsize=0):
+        self.maxsize = maxsize
+        self._init(maxsize)
+		
+        # mutex——互斥锁，属于线程锁。
+        # 任何时候队列在发生改变时，必须加持有互斥锁。
+        # 所有需要加锁的方法，在返回值之前必须释放锁。
+        # 互斥锁在以上三种状态（|<--1-->|加锁|<--2-->|释放锁|<--3-->|）时是共享的。
+        # 因此，获取或者释放状态时，也获取和释放了互斥锁
+        self.mutex = threading.Lock()
+		
+        # 
+        # Notify not_empty whenever an item is added to the queue; a
+        # thread waiting to get is notified then.
+        self.not_empty = threading.Condition(self.mutex)
+
+        # Notify not_full whenever an item is removed from the queue;
+        # a thread waiting to put is notified then.
+        self.not_full = threading.Condition(self.mutex)
+
+        # Notify all_tasks_done whenever the number of unfinished tasks
+        # drops to zero; thread waiting to join() is notified to resume
+        self.all_tasks_done = threading.Condition(self.mutex)
+        self.unfinished_tasks = 0
+
+    def task_done(self):
+        '''Indicate that a formerly enqueued task is complete.
+		
+		
+        Used by Queue consumer threads.  For each get() used to fetch a task,
+        a subsequent call to task_done() tells the queue that the processing
+        on the task is complete.
+
+        If a join() is currently blocking, it will resume when all items
+        have been processed (meaning that a task_done() call was received
+        for every item that had been put() into the queue).
+
+        Raises a ValueError if called more times than there were items
+        placed in the queue.
+        '''
+        with self.all_tasks_done:
+            unfinished = self.unfinished_tasks - 1
+            if unfinished <= 0:
+                if unfinished < 0:
+                    raise ValueError('task_done() called too many times')
+                self.all_tasks_done.notify_all()
+            self.unfinished_tasks = unfinished
+
+    def join(self):
+        '''阻塞，直到Queue中的所有对象都被获取并处理了。
+        Blocks until all items in the Queue have been gotten and processed.
+		
+		任何时候一个对象被加进Queue中后，未完成任务的计数都会增加。
+		任何时候一个消费者线程调用task_done()方法表明一个对象被获取且工作完毕了，这个计数都会减少。
+        The count of unfinished tasks goes up whenever an item is added to the
+        queue. The count goes down whenever a consumer thread calls task_done()
+        to indicate the item was retrieved and all work on it is complete.
+		
+		当未完成任务的计数减少到0时，join()方法的阻塞被释放。
+        When the count of unfinished tasks drops to zero, join() unblocks.
+        '''
+        with self.all_tasks_done:
+            while self.unfinished_tasks:
+                self.all_tasks_done.wait()
+
+    def qsize(self):
+        '''返回队列的大概长度 (不可靠!).'''
+        with self.mutex:
+            return self._qsize()
+
+    def empty(self):
+        '''判断一个队列是否为空，是返回True，否返回False (不可靠!).
+		
+		这个方法可能会在未来被删除。直接使用qsize()方法来判断队列是否为空。
+        This method is likely to be removed at some point.  Use qsize() == 0
+        as a direct substitute, but be aware that either approach risks a race
+        condition where a queue can grow before the result of empty() or
+        qsize() can be used.
+
+        To create code that needs to wait for all queued tasks to be
+        completed, the preferred technique is to use the join() method.
+        '''
+        with self.mutex:
+            return not self._qsize()
+
+    def full(self):
+        '''Return True if the queue is full, False otherwise (not reliable!).
+
+        This method is likely to be removed at some point.  Use qsize() >= n
+        as a direct substitute, but be aware that either approach risks a race
+        condition where a queue can shrink before the result of full() or
+        qsize() can be used.
+        '''
+        with self.mutex:
+            return 0 < self.maxsize <= self._qsize()
+
+    def put(self, item, block=True, timeout=None):
+        '''Put an item into the queue.
+		把一个对象放进队列。
+		
+		如果可选参数 block 为True, 并且 timeout 为 None，那么操作会阻塞，直到队列有可用空间。
+		如果 timeout 为非负整数，则会阻塞指定时间，如果这段时间都没有位置释放，则会报错。
+		
+		其他情况（block为false），队列如果有空槽位则直接放进去，没有则直接报错。
+		
+        If optional args 'block' is true and 'timeout' is None (the default),
+        block if necessary until a free slot is available. If 'timeout' is
+        a non-negative number, it blocks at most 'timeout' seconds and raises
+        the Full exception if no free slot was available within that time.
+        Otherwise ('block' is false), put an item on the queue if a free slot
+        is immediately available, else raise the Full exception ('timeout'
+        is ignored in that case).
+        '''
+        with self.not_full:
+            if self.maxsize > 0:
+                if not block:
+                    if self._qsize() >= self.maxsize:
+                        raise Full
+                elif timeout is None:
+                    while self._qsize() >= self.maxsize:
+                        self.not_full.wait()
+                elif timeout < 0:
+                    raise ValueError("'timeout' must be a non-negative number")
+                else:
+                    endtime = time() + timeout
+                    while self._qsize() >= self.maxsize:
+                        remaining = endtime - time()
+                        if remaining <= 0.0:
+                            raise Full
+                        self.not_full.wait(remaining)
+            self._put(item)
+            self.unfinished_tasks += 1
+            self.not_empty.notify()
+
+    def get(self, block=True, timeout=None):
+        '''Remove and return an item from the queue.
+
+        If optional args 'block' is true and 'timeout' is None (the default),
+        block if necessary until an item is available. If 'timeout' is
+        a non-negative number, it blocks at most 'timeout' seconds and raises
+        the Empty exception if no item was available within that time.
+        Otherwise ('block' is false), return an item if one is immediately
+        available, else raise the Empty exception ('timeout' is ignored
+        in that case).
+        '''
+        with self.not_empty:
+            if not block:
+                if not self._qsize():
+                    raise Empty
+            elif timeout is None:
+                while not self._qsize():
+                    self.not_empty.wait()
+            elif timeout < 0:
+                raise ValueError("'timeout' must be a non-negative number")
+            else:
+                endtime = time() + timeout
+                while not self._qsize():
+                    remaining = endtime - time()
+                    if remaining <= 0.0:
+                        raise Empty
+                    self.not_empty.wait(remaining)
+            item = self._get()
+            self.not_full.notify()
+            return item
+
+    def put_nowait(self, item):
+        '''Put an item into the queue without blocking.
+
+        Only enqueue the item if a free slot is immediately available.
+        Otherwise raise the Full exception.
+        '''
+        return self.put(item, block=False)
+
+    def get_nowait(self):
+        '''Remove and return an item from the queue without blocking.
+
+        Only get an item if one is immediately available. Otherwise
+        raise the Empty exception.
+        '''
+        return self.get(block=False)
+
+    # Override these methods to implement other queue organizations
+    # (e.g. stack or priority queue).
+    # These will only be called with appropriate locks held
+
+    # 实例化类时调用的函数，可以看到，Queue实际上是一个deque()对象
+    # Initialize the queue representation
+    def _init(self, maxsize):
+        self.queue = deque()
+
+    # 返回队列的长度
+    def _qsize(self):
+        return len(self.queue)
+
+    # 在队列中添加(append)一个新对象
+    def _put(self, item):
+        self.queue.append(item)
+
+    # 从队列中获取(popleft)一个对象
+    def _get(self):
+        return self.queue.popleft()
+```
+
+可以看到核心的 put() 和 get() 两个方法，其实用的就是 append 和 popleft 来实现的，为什么有 popleft 方法？这其实是因为 **Queue 其实是一个 deque 对象** （在_init()方法中定义了）。
+
+**deque**：继续深挖，找不到 deque 的 .py 源码，于是发现 python 的 collections 库其实是用c语言（cpython）实现的，在这里：https://github.com/python/cpython/blob/master/Modules/_collectionsmodule.c。源码太长，看不懂太c，就不继续深挖了。由于deque是c语言的实现，所以我们有理由相信deque具有非常不错的性能，以后可以多多使用。
+
+**PriorityQueue**：`Miniconda3\Lib\queue.py`文件 `Line 220-236`
+
+```python
+class PriorityQueue(Queue):
+    '''Variant of Queue that retrieves open entries in priority order (lowest first).
+
+    Entries are typically tuples of the form:  (priority number, data).
+    '''
+
+    def _init(self, maxsize):
+        self.queue = []
+
+    def _qsize(self):
+        return len(self.queue)
+
+    def _put(self, item):
+        heappush(self.queue, item)
+
+    def _get(self):
+        return heappop(self.queue)
+```
+
+可以看到PriorityQueue本身其实就是一个Queue的类继承，它改写了Queue的 \_put() 和 \_get() 方法，使用了 heappush 和 heappop 方法替代了原来的 append 和 pop，在插入和获取对象的同时，会对 Queue 实例中的元素进行排序。查阅 heapq 库，可以看到这两个方法：
+
+```python
+def heappush(heap, item):
+    """Push item onto heap, maintaining the heap invariant."""
+    heap.append(item)
+    _siftdown(heap, 0, len(heap)-1)
+
+def heappop(heap):
+    """Pop the smallest item off the heap, maintaining the heap invariant."""
+    lastelt = heap.pop()    # raises appropriate IndexError if heap is empty
+    if heap:
+        returnitem = heap[0]
+        heap[0] = lastelt
+        _siftup(heap, 0)
+        return returnitem
+    return lastelt
+```
+
+这两个方法基本上就是堆的特有方法，可以看到 python 的 **heap 其实就是 python 基本的 list 对象**，使用pop，append等方法来操作。
+
+**heapq**：进一步看以下 heapq 这个库的话，基本上有如下方法：
+
+```python
+__all__ = ['heappush', 'heappop', 'heapify', 'heapreplace', 'merge',
+           'nlargest', 'nsmallest', 'heappushpop']
+```
+
+都是堆的基本功能，以后可以进一步学习。
