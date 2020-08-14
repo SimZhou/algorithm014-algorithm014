@@ -11,49 +11,52 @@
 
 
 
-## 刷题记录、
+## 刷题记录
 
 额外刷题，来自LC日推题，群内每日一题，随性刷题等
 
-| #    | 题目名                                                       | 难度  | 关键词                                           | 已过遍数 |
-| ---- | ------------------------------------------------------------ | ----- | ------------------------------------------------ | -------- |
-| 130  | [被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/) | 💛中等 | DFS, BFS, 并查集                                 | 1        |
-| 92   | [反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii/) | 💛中等 | [链表](https://leetcode-cn.com/tag/linked-list/) | 1        |
-|      |                                                              |       |                                                  |          |
+| #    | 题目名                                                       | 难度  | 关键词                                                       | 已过遍数 |
+| ---- | ------------------------------------------------------------ | ----- | ------------------------------------------------------------ | -------- |
+| 130  | [被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/) | 💛中等 | [DFS](https://leetcode-cn.com/tag/depth-first-search/), [BFS](https://leetcode-cn.com/tag/breadth-first-search/), [并查集](https://leetcode-cn.com/tag/union-find/) | 1        |
+| 92   | [反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii/) | 💛中等 | [链表](https://leetcode-cn.com/tag/linked-list/)             | 1        |
+| 202  | [快乐数](https://leetcode-cn.com/problems/happy-number/)     | 💚简单 | [哈希表](https://leetcode-cn.com/tag/hash-table/)，[数学](https://leetcode-cn.com/tag/math/) | 1        |
+| 287  | [寻找重复数](https://leetcode-cn.com/problems/find-the-duplicate-number/) | 💛中等 | [数组](https://leetcode-cn.com/tag/array/)，[双指针](https://leetcode-cn.com/tag/two-pointers/)，[二分查找](https://leetcode-cn.com/tag/binary-search/) | 1        |
+| 225  | [用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues/) | 💚简单 | [设计](https://leetcode-cn.com/tag/design/)                  |          |
+| 232  | [用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/) | 💚简单 | [设计](https://leetcode-cn.com/tag/design/)                  |          |
 
 实践题
 
 | #    | 题目名                                                       | 难度  | 关键词                                                       | 已过遍数 |
 | ---- | ------------------------------------------------------------ | ----- | ------------------------------------------------------------ | -------- |
-| 146  | [LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/)   | 💛中等 | [设计](https://leetcode-cn.com/tag/design/)                  | 3        |
-| 11   | [盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/) | 💛中等 | [数组](https://leetcode-cn.com/tag/array/)，[双指针](https://leetcode-cn.com/tag/two-pointers/) | 3        |
-| 70   | [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)  | 💚简单 | DP                                                           | 3        |
-| 15   | [三数之和](https://leetcode-cn.com/problems/3sum/)           | 💛中等 | [数组](https://leetcode-cn.com/tag/array/)，[双指针](https://leetcode-cn.com/tag/two-pointers/)，哈希表 | 2        |
+| 146  | [LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/)   | 💛中等 | [设计](https://leetcode-cn.com/tag/design/)                  | 4        |
+| 11   | [盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/) | 💛中等 | [数组](https://leetcode-cn.com/tag/array/)，[双指针](https://leetcode-cn.com/tag/two-pointers/) | 4        |
+| 70   | [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)  | 💚简单 | [DP](https://leetcode-cn.com/tag/dynamic-programming/)       | 3        |
+| 15   | [三数之和](https://leetcode-cn.com/problems/3sum/)           | 💛中等 | [数组](https://leetcode-cn.com/tag/array/)，[双指针](https://leetcode-cn.com/tag/two-pointers/)，[哈希表](https://leetcode-cn.com/tag/hash-table/) | 2        |
 | 206  | [反转链表](https://leetcode-cn.com/problems/reverse-linked-list/) | 💚简单 | [链表](https://leetcode-cn.com/tag/linked-list/)             | 2        |
-|      | [两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs) | 💚简单 |                                                              |          |
-|      | [环形链表](https://leetcode-cn.com/problems/linked-list-cycle) | 💛中等 |                                                              |          |
-|      | [环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii) | 💛中等 |                                                              |          |
-|      | [K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | 🧡困难 |                                                              |          |
-|      | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) |       |                                                              |          |
-|      | [最小栈](https://leetcode-cn.com/problems/min-stack/)        |       |                                                              |          |
-|      | [柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram) |       |                                                              |          |
-|      | [滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum) |       |                                                              |          |
+| 24   | [两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs) | 💛中等 | [链表](https://leetcode-cn.com/tag/linked-list/)             | 2        |
+| 141  | [环形链表](https://leetcode-cn.com/problems/linked-list-cycle) | 💛中等 | [链表](https://leetcode-cn.com/tag/linked-list/)，[双指针](https://leetcode-cn.com/tag/two-pointers/) | 2        |
+| 142  | [环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii) | 💛中等 | [链表](https://leetcode-cn.com/tag/linked-list/)，[双指针](https://leetcode-cn.com/tag/two-pointers/) | 1        |
+| 25   | [K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | 🧡困难 | [链表](https://leetcode-cn.com/tag/linked-list/)             | 1        |
+|      | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | 💚简单 |                                                              |          |
+|      | [最小栈](https://leetcode-cn.com/problems/min-stack/)        | 💚简单 |                                                              |          |
+|      | [柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram) | 🧡困难 |                                                              |          |
+|      | [滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum) | 🧡困难 |                                                              |          |
 
 作业题
 
 | #    | 题目名                                                       | 难度  | 关键词                                                       | 已过遍数 |
 | ---- | ------------------------------------------------------------ | ----- | ------------------------------------------------------------ | -------- |
-| -    | 改写 Deque (用add first/last)                                | -     | 设计，双端队列                                               | 见下文   |
+| -    | 改写 Deque (用add first/last)                                | -     | 设计，队列                                                   | 见下文   |
 | -    | 分析 Queue 和 Priority Queue 源码                            | -     | 设计，队列                                                   | 见下文   |
 | 26   | [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | 💚简单 | [数组](https://leetcode-cn.com/tag/array/)，[双指针](https://leetcode-cn.com/tag/two-pointers/) | 2        |
-|      | [旋转数组](https://leetcode-cn.com/problems/rotate-array/)   | 💚简单 |                                                              |          |
-|      | [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | 💚简单 |                                                              |          |
-|      | [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/) | 💚简单 |                                                              |          |
-| 1    | [两数之和](https://leetcode-cn.com/problems/two-sum/)        | 💚简单 | [数组](https://leetcode-cn.com/tag/array/)，哈希表           | 3        |
+| 189  | [旋转数组](https://leetcode-cn.com/problems/rotate-array/)   | 💚简单 | [数组](https://leetcode-cn.com/tag/array/)                   | 1        |
+| 21   | [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | 💚简单 | [链表](https://leetcode-cn.com/tag/linked-list/)             | 1        |
+| 88   | [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/) | 💚简单 | [数组](https://leetcode-cn.com/tag/array/)，[双指针](https://leetcode-cn.com/tag/two-pointers/) | 1        |
+| 1    | [两数之和](https://leetcode-cn.com/problems/two-sum/)        | 💚简单 | [数组](https://leetcode-cn.com/tag/array/)，[哈希表](https://leetcode-cn.com/tag/hash-table/) | 3        |
 | 283  | [移动零](https://leetcode-cn.com/problems/move-zeroes/)      | 💚简单 | [数组](https://leetcode-cn.com/tag/array/)，[双指针](https://leetcode-cn.com/tag/two-pointers/) | 3        |
 | 66   | [加一](https://leetcode-cn.com/problems/plus-one/)           | 💚简单 | [数组](https://leetcode-cn.com/tag/array/)                   | 3        |
-|      | [设计循环双端队列](https://leetcode.com/problems/design-circular-deque) | 💛中等 |                                                              |          |
-|      | [接雨水](https://leetcode.com/problems/trapping-rain-water/) | 🧡困难 |                                                              |          |
+| 641  | [设计循环双端队列](https://leetcode-cn.com/problems/design-circular-deque) | 💛中等 | [设计](https://leetcode-cn.com/tag/design/)，[队列](https://leetcode-cn.com/tag/queue/) | 1        |
+|      | [接雨水](https://leetcode-cn.com/problems/trapping-rain-water/) | 🧡困难 |                                                              |          |
 
 
 
@@ -101,29 +104,29 @@
 简单实现deque对象，使其具有 addfirst() 和 addlast() 接口：
 
 ```python
-class Deque(list):
+class Deque():
+    def __repr__(self):
+        return str(self.list)
+    
     def __init__(self):
-        super().__init__()
-    	self.list = []
+        self.list = []
+        
     def addfirst(self, num):
-        '''
-        我这里继承list来实现的addfirst接口，没有办法直接对原数组进行修改，不知道这里应该怎么写了
-        self = [num] + self 不管用；开辟新空间然后 return [num] + self 可以，但不是原地修改
-        感觉python可能没有提供这个接口，所以，差不多就这意思吧。
-        '''
-        return [num] + self
+        self.list = [num] + self.list
     
     def addlast(self, num):
-        self.append(num)
+        self.list.append(num)
         
     def popleft(self):
-        x = self[0]
-        self.__delitem__(0)
+        if not self.list: raise IndexError("pop from empty list")
+        x = self.list[0]
+        self.list.__delitem__(0)
         return x
     
     def popright(self):
-        x = self[-1]
-        self.__delitem__(-1)
+        if not self.list: raise IndexError("pop from empty list")
+        x = self.list[-1]
+        self.list.__delitem__(-1)
         return x
 ```
 
