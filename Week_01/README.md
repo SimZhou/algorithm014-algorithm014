@@ -23,24 +23,25 @@
 | 287  | [寻找重复数](https://leetcode-cn.com/problems/find-the-duplicate-number/) | 💛中等 | [数组](https://leetcode-cn.com/tag/array/)，[双指针](https://leetcode-cn.com/tag/two-pointers/)，[二分查找](https://leetcode-cn.com/tag/binary-search/) | 1        |
 | 225  | [用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues/) | 💚简单 | [设计](https://leetcode-cn.com/tag/design/)                  |          |
 | 232  | [用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/) | 💚简单 | [设计](https://leetcode-cn.com/tag/design/)                  |          |
+| 299  | [猜数字游戏](https://leetcode-cn.com/problems/bulls-and-cows/) | 💚简单 | [哈希表](https://leetcode-cn.com/tag/hash-table/)            | 1        |
 
 实践题
 
 | #    | 题目名                                                       | 难度  | 关键词                                                       | 已过遍数 |
 | ---- | ------------------------------------------------------------ | ----- | ------------------------------------------------------------ | -------- |
-| 146  | [LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/)   | 💛中等 | [设计](https://leetcode-cn.com/tag/design/)                  | 4        |
-| 11   | [盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/) | 💛中等 | [数组](https://leetcode-cn.com/tag/array/)，[双指针](https://leetcode-cn.com/tag/two-pointers/) | 4        |
-| 70   | [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)  | 💚简单 | [DP](https://leetcode-cn.com/tag/dynamic-programming/)       | 3        |
-| 15   | [三数之和](https://leetcode-cn.com/problems/3sum/)           | 💛中等 | [数组](https://leetcode-cn.com/tag/array/)，[双指针](https://leetcode-cn.com/tag/two-pointers/)，[哈希表](https://leetcode-cn.com/tag/hash-table/) | 2        |
-| 206  | [反转链表](https://leetcode-cn.com/problems/reverse-linked-list/) | 💚简单 | [链表](https://leetcode-cn.com/tag/linked-list/)             | 2        |
-| 24   | [两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs) | 💛中等 | [链表](https://leetcode-cn.com/tag/linked-list/)             | 2        |
-| 141  | [环形链表](https://leetcode-cn.com/problems/linked-list-cycle) | 💛中等 | [链表](https://leetcode-cn.com/tag/linked-list/)，[双指针](https://leetcode-cn.com/tag/two-pointers/) | 2        |
-| 142  | [环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii) | 💛中等 | [链表](https://leetcode-cn.com/tag/linked-list/)，[双指针](https://leetcode-cn.com/tag/two-pointers/) | 1        |
-| 25   | [K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | 🧡困难 | [链表](https://leetcode-cn.com/tag/linked-list/)             | 1        |
-|      | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | 💚简单 |                                                              |          |
-|      | [最小栈](https://leetcode-cn.com/problems/min-stack/)        | 💚简单 |                                                              |          |
-|      | [柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram) | 🧡困难 |                                                              |          |
-|      | [滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum) | 🧡困难 |                                                              |          |
+| 146  | [LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/)   | 💛中等 | [设计](https://leetcode-cn.com/tag/design/)                  | 5        |
+| 11   | [盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/) | 💛中等 | [数组](https://leetcode-cn.com/tag/array/)，[双指针](https://leetcode-cn.com/tag/two-pointers/) | 5        |
+| 70   | [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)  | 💚简单 | [DP](https://leetcode-cn.com/tag/dynamic-programming/)       | 4        |
+| 15   | [三数之和](https://leetcode-cn.com/problems/3sum/)           | 💛中等 | [数组](https://leetcode-cn.com/tag/array/)，[双指针](https://leetcode-cn.com/tag/two-pointers/)，[哈希表](https://leetcode-cn.com/tag/hash-table/) | 3        |
+| 206  | [反转链表](https://leetcode-cn.com/problems/reverse-linked-list/) | 💚简单 | [链表](https://leetcode-cn.com/tag/linked-list/)             | 3        |
+| 24   | [两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs) | 💛中等 | [链表](https://leetcode-cn.com/tag/linked-list/)             | 3        |
+| 141  | [环形链表](https://leetcode-cn.com/problems/linked-list-cycle) | 💛中等 | [链表](https://leetcode-cn.com/tag/linked-list/)，[双指针](https://leetcode-cn.com/tag/two-pointers/) | 3        |
+| 142  | [环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii) | 💛中等 | [链表](https://leetcode-cn.com/tag/linked-list/)，[双指针](https://leetcode-cn.com/tag/two-pointers/) | 2        |
+| 25   | [K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | 🧡困难 | [链表](https://leetcode-cn.com/tag/linked-list/)             | 2        |
+| 20   | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | 💚简单 | [栈](https://leetcode-cn.com/tag/stack/)，[字符串](https://leetcode-cn.com/tag/string/) | 1        |
+| 155  | [最小栈](https://leetcode-cn.com/problems/min-stack/)        | 💚简单 | [栈](https://leetcode-cn.com/tag/stack/)，[设计](https://leetcode-cn.com/tag/design/) | 1        |
+| 84   | [柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram) | 🧡困难 | [栈](https://leetcode-cn.com/tag/stack/)，[数组](https://leetcode-cn.com/tag/array/) | 2        |
+| 239  | [滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum) | 🧡困难 | 堆，Sliding Window                                           |          |
 
 作业题
 
@@ -130,7 +131,7 @@ class Deque():
         return x
 ```
 
-
+也见leetcode题目：[641.设计循环双端队列]([https://github.com/SimZhou/algorithm014-algorithm014/blob/master/Week_01/Homeworks/641.%20%E8%AE%BE%E8%AE%A1%E5%BE%AA%E7%8E%AF%E5%8F%8C%E7%AB%AF%E9%98%9F%E5%88%97.py](https://github.com/SimZhou/algorithm014-algorithm014/blob/master/Week_01/Homeworks/641. 设计循环双端队列.py))
 
 #### 分析Queue和Priority Queue源码（Python）
 
@@ -349,7 +350,7 @@ class Queue:
 
 可以看到核心的 put() 和 get() 两个方法，其实用的就是 append 和 popleft 来实现的，为什么有 popleft 方法？这其实是因为 **Queue 其实是一个 deque 对象** （在_init()方法中定义了）。
 
-**deque**：继续深挖，找不到 deque 的 .py 源码，于是发现 python 的 collections 库其实是用c语言（cpython）实现的，在这里：https://github.com/python/cpython/blob/master/Modules/_collectionsmodule.c。源码太长，看不懂太c，就不继续深挖了。由于deque是c语言的实现，所以我们有理由相信deque具有非常不错的性能，以后可以多多使用。
+**deque**：继续深挖，找不到 deque 的 .py 源码，于是发现 python 的 collections 库其实是用c语言（cpython）实现的，在这里：[_collectionsmodule.c](https://github.com/python/cpython/blob/master/Modules/_collectionsmodule.c) 。源码太长，看不懂太c，就不继续深挖了。由于deque是c语言的实现，所以我们有理由相信deque具有非常不错的性能，以后可以多多使用。
 
 **PriorityQueue**：`Miniconda3\Lib\queue.py`文件 `Line 220-236`
 

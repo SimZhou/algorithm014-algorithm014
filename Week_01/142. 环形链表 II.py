@@ -8,18 +8,11 @@
 
 class Solution:
     def detectCycle(self, head: ListNode) -> ListNode:
-        tortoise, hare = head, head
-        while 1:
-            if not hare: return
-            if not hare.next: return
-            
-            tortoise = tortoise.next
-            hare = hare.next.next
-            
-            if tortoise == hare: break
-            
-        while head != tortoise:
-            head = head.next
-            tortoise = tortoise.next
-        
+        t, h  = head, head
+        while 1: 
+            if not h or not h.next: return
+            t, h = t.next, h.next.next
+            if t == h: break   
+        while head != t:
+            head, t = head.next, t.next
         return head

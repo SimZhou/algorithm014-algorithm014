@@ -9,16 +9,7 @@
 class Solution:
     def hasCycle(self, head: ListNode) -> bool:
         p1, p2 = head, head
-        while p2:
-            if not p2: break
-            if not p2.next: break
+        while 1:
+            if not p2 or not p2.next: return False
             p1, p2 = p1.next, p2.next.next
             if p1 == p2: return True
-        return False
-    # def hasCycle(self, head: ListNode) -> bool:
-    #     table = set()
-    #     while head:
-    #         if id(head) in table: return True
-    #         table.add(id(head))
-    #         head = head.next
-    #     return False
