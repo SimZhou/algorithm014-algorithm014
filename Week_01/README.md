@@ -38,10 +38,10 @@
 | 141  | [环形链表](https://leetcode-cn.com/problems/linked-list-cycle) | 💛中等 | [链表](https://leetcode-cn.com/tag/linked-list/)，[双指针](https://leetcode-cn.com/tag/two-pointers/) | 3        |
 | 142  | [环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii) | 💛中等 | [链表](https://leetcode-cn.com/tag/linked-list/)，[双指针](https://leetcode-cn.com/tag/two-pointers/) | 2        |
 | 25   | [K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | 🧡困难 | [链表](https://leetcode-cn.com/tag/linked-list/)             | 2        |
-| 20   | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | 💚简单 | [栈](https://leetcode-cn.com/tag/stack/)，[字符串](https://leetcode-cn.com/tag/string/) | 1        |
-| 155  | [最小栈](https://leetcode-cn.com/problems/min-stack/)        | 💚简单 | [栈](https://leetcode-cn.com/tag/stack/)，[设计](https://leetcode-cn.com/tag/design/) | 1        |
+| 20   | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | 💚简单 | [栈](https://leetcode-cn.com/tag/stack/)，[字符串](https://leetcode-cn.com/tag/string/) | 2        |
+| 155  | [最小栈](https://leetcode-cn.com/problems/min-stack/)        | 💚简单 | [栈](https://leetcode-cn.com/tag/stack/)，[设计](https://leetcode-cn.com/tag/design/) | 2        |
 | 84   | [柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram) | 🧡困难 | [栈](https://leetcode-cn.com/tag/stack/)，[数组](https://leetcode-cn.com/tag/array/) | 2        |
-| 239  | [滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum) | 🧡困难 | 堆，Sliding Window                                           |          |
+| 239  | [滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum) | 🧡困难 | 堆，Sliding Window                                           | 1        |
 
 作业题
 
@@ -56,7 +56,7 @@
 | 1    | [两数之和](https://leetcode-cn.com/problems/two-sum/)        | 💚简单 | [数组](https://leetcode-cn.com/tag/array/)，[哈希表](https://leetcode-cn.com/tag/hash-table/) | 3        |
 | 283  | [移动零](https://leetcode-cn.com/problems/move-zeroes/)      | 💚简单 | [数组](https://leetcode-cn.com/tag/array/)，[双指针](https://leetcode-cn.com/tag/two-pointers/) | 3        |
 | 66   | [加一](https://leetcode-cn.com/problems/plus-one/)           | 💚简单 | [数组](https://leetcode-cn.com/tag/array/)                   | 3        |
-| 641  | [设计循环双端队列](https://leetcode-cn.com/problems/design-circular-deque) | 💛中等 | [设计](https://leetcode-cn.com/tag/design/)，[队列](https://leetcode-cn.com/tag/queue/) | 1        |
+| 641  | [设计循环双端队列](https://leetcode-cn.com/problems/design-circular-deque) | 💛中等 | [设计](https://leetcode-cn.com/tag/design/)，[队列](https://leetcode-cn.com/tag/queue/) | 2        |
 |      | [接雨水](https://leetcode-cn.com/problems/trapping-rain-water/) | 🧡困难 |                                                              |          |
 
 
@@ -137,7 +137,9 @@ class Deque():
 
 Python中的 [Queue](https://docs.python.org/3/library/queue.html#queue.Queue) 和 [PriorityQueue](https://docs.python.org/3/library/queue.html#queue.PriorityQueue) 都在 queue 这个模块中，以下是源码，我把部分注释翻译了一下
 
-**Queue**: `Miniconda3\Lib\queue.py`文件 `Line 27-217`
+##### **Queue** 
+
+位于`Miniconda3\Lib\queue.py`文件 `Line 27-217`
 
 ```python
 class Queue:
@@ -350,9 +352,13 @@ class Queue:
 
 可以看到核心的 put() 和 get() 两个方法，其实用的就是 append 和 popleft 来实现的，为什么有 popleft 方法？这其实是因为 **Queue 其实是一个 deque 对象** （在_init()方法中定义了）。
 
-**deque**：继续深挖，找不到 deque 的 .py 源码，于是发现 python 的 collections 库其实是用c语言（cpython）实现的，在这里：[_collectionsmodule.c](https://github.com/python/cpython/blob/master/Modules/_collectionsmodule.c) 。源码太长，看不懂太c，就不继续深挖了。由于deque是c语言的实现，所以我们有理由相信deque具有非常不错的性能，以后可以多多使用。
+##### **deque**
 
-**PriorityQueue**：`Miniconda3\Lib\queue.py`文件 `Line 220-236`
+继续深挖，找不到 deque 的 .py 源码，于是发现 python 的 collections 库其实是用c语言（cpython）实现的，在这里：[_collectionsmodule.c](https://github.com/python/cpython/blob/master/Modules/_collectionsmodule.c) 。源码太长，看不懂太c，就不继续深挖了。由于deque是c语言的实现，所以我们有理由相信deque具有非常不错的性能，以后可以多多使用。
+
+##### **PriorityQueue**
+
+位于`Miniconda3\Lib\queue.py`文件 `Line 220-236`
 
 ```python
 class PriorityQueue(Queue):
@@ -395,11 +401,117 @@ def heappop(heap):
 
 这两个方法基本上就是堆的特有方法，可以看到 python 的 **heap 其实就是 python 基本的 list 对象**，使用pop，append等方法来操作。
 
-**heapq**：进一步看以下 heapq 这个库的话，基本上有如下方法：
+##### heapq
+
+进一步看以下 heapq（[文档](https://docs.python.org/3.8/library/heapq.html)） 这个库，这个库提供了有如下方法：
 
 ```python
 __all__ = ['heappush', 'heappop', 'heapify', 'heapreplace', 'merge',
            'nlargest', 'nsmallest', 'heappushpop']
 ```
 
-都是堆的基本功能，以后可以进一步学习。
+最常用的应该是 `heappush` 和 `heappop` 这两个。还有`heapify`（将传入对象转化为满足堆的顺序）
+
+例如：`heapify`
+
+```python
+>>> l = [6,3,5,2,1,8,7]
+>>> heapq.heapify(l)
+>>> l
+[1, 2, 5, 6, 3, 8, 7]
+```
+
+`heappush`提供插入一个元素到堆中的功能：
+
+```python
+>>> heapq.heappush(l, 4)
+>>> l
+[1, 2, 5, 4, 3, 8, 7, 6]
+```
+
+`heappop`提供从堆中获取一个元素的功能，且获取的元素为堆中最小值
+
+```python
+>>> heapq.heappop(l)
+1
+>>> heapq.heappop(l)
+2
+>>> heapq.heappop(l)
+3
+>>> heapq.heappop(l)
+4
+>>> heapq.heappop(l)
+5
+>>> heapq.heappop(l)
+6
+>>> heapq.heappop(l)
+7
+>>> heapq.heappop(l)
+8
+```
+
+`nlargest`提供查询堆中最大n个元素的功能
+
+```python
+>>> heapq.nlargest(4, l)
+[8, 7, 6, 5]
+# 下面两个是乱打的列表，不满足堆结构，但依旧能查询，推测会先自动heapify
+>>> heapq.nlargest(4, [1,3,6,3,8,2,2,3,6,9])
+[9, 8, 6, 6]
+>>> heapq.nlargest(4, [19,3,6,3,8,2,2,3,6,9])
+[19, 9, 8, 6]
+# 支持key功能
+>>> heapq.nlargest(4, [(1,"D"),(2,"C")], key=lambda x: x[1])
+[(1, 'D'), (2, 'C')]
+```
+
+`heapreplace`，pop一个，然后push一个。
+
+官方还提供了一个用heapq库进行堆排序的例子：
+
+```python
+>>> def heapsort(iterable):
+...     h = []
+...     for value in iterable:
+...         heappush(h, value)
+...     return [heappop(h) for i in range(len(h))]
+...
+>>> heapsort([1, 3, 5, 7, 9, 2, 4, 6, 8, 0])
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+```
+
+另外，heapq这个库仅仅实现了最小堆，而没有最大堆这个功能，如果要用heapq做最大堆，有一个trick，就是用负数来存元素：
+
+```python
+# Python3 program to demonstrate working of heapq 
+
+from heapq import heappop, heappush, heapify 
+  
+# Creating empty heap 
+heap = [] 
+heapify(heap) 
+  
+# Adding items to the heap using heappush 
+# function by multiplying them with -1 
+heappush(heap, -1 * 10) 
+heappush(heap, -1 * 30) 
+heappush(heap, -1 * 20) 
+heappush(heap, -1 * 400) 
+  
+# printing the value of maximum element 
+print("Head value of heap : "+str(-1 * heap[0])) 
+  
+# printing the elements of the heap 
+print("The heap elements : ") 
+for i in heap: 
+    print(-1 * i, end = ' ') 
+print("\n") 
+  
+element = heappop(heap) 
+  
+# printing the elements of the heap 
+print("The heap elements : ") 
+for i in heap: 
+    print(-1 * i, end = ' ') 
+```
+
