@@ -26,7 +26,7 @@
 
 | #    | 题目名                                                       | 难度  | 关键词                                                       | 已过遍数 |
 | ---- | ------------------------------------------------------------ | ----- | ------------------------------------------------------------ | -------- |
-| 49   | [字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/) | 💛中等 | [哈希表](https://leetcode-cn.com/tag/hash-table/)，[字符串](https://leetcode-cn.com/tag/string/) | 1        |
+| 49   | [字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/) | 💛中等 | [哈希表](https://leetcode-cn.com/tag/hash-table/)，[字符串](https://leetcode-cn.com/tag/string/) | 2        |
 |      | [最小的 k 个数](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/) | 💚简单 | [堆](https://leetcode-cn.com/tag/heap/)，[分治法](https://leetcode-cn.com/tag/divide-and-conquer/) |          |
 |      | [滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/) | 🧡困难 | [堆](https://leetcode-cn.com/tag/heap/)，[Sliding Window](https://leetcode-cn.com/tag/sliding-window/) |          |
 |      | [岛屿数量](https://leetcode-cn.com/problems/number-of-islands/) | 💛中等 | [DFS](https://leetcode-cn.com/tag/depth-first-search/), [BFS](https://leetcode-cn.com/tag/breadth-first-search/), [并查集](https://leetcode-cn.com/tag/union-find/) |          |
@@ -228,7 +228,7 @@ def bfs(graph, start, end):
 
 ### 2020.08.20 超哥直播总结——面试考点
 
-![面试考点](C:\Users\yihua\学习\algorithm014-algorithm014\Week_02\面试考点.png)
+![面试考点](https://github.com/SimZhou/algorithm014-algorithm014/blob/master/Week_02/%E9%9D%A2%E8%AF%95%E8%80%83%E7%82%B9.png?raw=true)
 
 #### 面试考点：
 
