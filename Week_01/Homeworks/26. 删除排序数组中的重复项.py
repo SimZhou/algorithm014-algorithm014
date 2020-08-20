@@ -16,3 +16,14 @@ class Solution:
                 i += 1
                 j += 1                  # 挪完，j+1肯定大于j了，所以j++
         return j + 1
+ 
+    def removeDuplicates(self, nums: List[int]) -> int:
+        '''
+        双指针，更简洁的答案
+        '''
+        i = 0
+        for j in range(len(nums)-1):
+            if nums[j+1] != nums[j]:
+                nums[i+1] = nums[j+1]
+                i += 1
+        return i + 1
