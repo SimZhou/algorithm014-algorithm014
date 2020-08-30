@@ -1,4 +1,4 @@
-# 第二周学习笔记
+# 第2周学习笔记
 
 ## Code Interview 技巧（4步）
 
@@ -18,38 +18,32 @@
 | 1021 | [删除最外层的括号](https://leetcode-cn.com/problems/remove-outermost-parentheses/) | 💚简单 | [栈](https://leetcode-cn.com/tag/stack/)                     | 2        |
 | 258  | [各位相加](https://leetcode-cn.com/problems/add-digits/)     | 💚简单 | [数学](https://leetcode-cn.com/tag/math/)                    | 1        |
 | 104  | [二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | 💚简单 | [树](https://leetcode-cn.com/tag/tree/)，[DFS](https://leetcode-cn.com/tag/depth-first-search/) | 1        |
-| 679  | [24 点游戏](https://leetcode-cn.com/problems/24-game/)       | 🧡困难 |                                                              |          |
 
 实践题
 
 | #    | 题目名                                                       | 难度  | 关键词                                                       | 已过遍数 |
 | ---- | ------------------------------------------------------------ | ----- | ------------------------------------------------------------ | -------- |
 |      | [最小的 k 个数](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/) | 💚简单 | [堆](https://leetcode-cn.com/tag/heap/)，[分治法](https://leetcode-cn.com/tag/divide-and-conquer/) |          |
-|      | [滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/) (堆解法) | 🧡困难 | [堆](https://leetcode-cn.com/tag/heap/)，[Sliding Window](https://leetcode-cn.com/tag/sliding-window/) |          |
+| 239  | [滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/) (堆解法) | 🧡困难 | [堆](https://leetcode-cn.com/tag/heap/)，[Sliding Window](https://leetcode-cn.com/tag/sliding-window/) |          |
 |      | [岛屿数量](https://leetcode-cn.com/problems/number-of-islands/) | 💛中等 | [DFS](https://leetcode-cn.com/tag/depth-first-search/), [BFS](https://leetcode-cn.com/tag/breadth-first-search/), [并查集](https://leetcode-cn.com/tag/union-find/) |          |
 
 作业题
 
-| #     | 题目名                                                       | 难度     | 关键词                                                       | 已过遍数     |
-| ----- | ------------------------------------------------------------ | -------- | ------------------------------------------------------------ | ------------ |
-| -     | 写一个关于 HashMap 的小总结                                  | -        | 设计，队列                                                   | 见下文       |
-| 242   | [有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/description/) | 💚简单    | [排序](https://leetcode-cn.com/tag/sort/)，[哈希表](https://leetcode-cn.com/tag/hash-table/) | 2            |
-| 1     | [两数之和](https://leetcode-cn.com/problems/two-sum/description/) | 💚简单    | 数组，哈希表                                                 | 6            |
-| 589   | [N 叉树的前序遍历](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/description/) | 💚简单    | [树](https://leetcode-cn.com/tag/tree/)                      | 1            |
-| 590   | [N 叉树的后序遍历](https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/) | 💚简单    | [树](https://leetcode-cn.com/tag/tree/)                      | 1            |
-| -     | [HeapSort](https://www.geeksforgeeks.org/heap-sort/)         | -        | 堆排序                                                       | -            |
-| 49    | [字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/) | 💛中等    | [哈希表](https://leetcode-cn.com/tag/hash-table/)，[字符串](https://leetcode-cn.com/tag/string/) | 2            |
-| 94    | [二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) | 💛中等    | [栈](https://leetcode-cn.com/tag/stack/)，[树](https://leetcode-cn.com/tag/tree/)，[哈希表](https://leetcode-cn.com/tag/hash-table/) | 1            |
-| 589   | [二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) | 💛中等    | [栈](https://leetcode-cn.com/tag/stack/)，[树](https://leetcode-cn.com/tag/tree/) | 1            |
-| 145   | [二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) | 🧡困难    | [栈](https://leetcode-cn.com/tag/stack/)，[树](https://leetcode-cn.com/tag/tree/)，[哈希表](https://leetcode-cn.com/tag/hash-table/) | 1            |
-| 429   | [N 叉树的层序遍历](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/) | 💛中等    | [树](https://leetcode-cn.com/tag/tree/)，BFS                 | 1            |
-| 264   | [丑数 II](https://leetcode-cn.com/problems/ugly-number-ii/)  | 💛中等    |                                                              |              |
-| 347   | [前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/) | 💛中等    | 堆，哈希表                                                   | 1            |
-| **#** | **预习**                                                     | **难度** | **关键词**                                                   | **已过遍数** |
-| 22    | [括号生成](https://leetcode-cn.com/problems/generate-parentheses/) | 💛中等    | [字符串](https://leetcode-cn.com/tag/string/)，[回溯算法](https://leetcode-cn.com/tag/backtracking/) |              |
-|       | [Pow(x, n)](https://leetcode-cn.com/problems/powx-n/)        |          |                                                              |              |
-|       | [子集](https://leetcode-cn.com/problems/subsets/)            |          |                                                              |              |
-|       | [N 皇后](https://leetcode-cn.com/problems/n-queens/)         |          |                                                              |              |
+| #    | 题目名                                                       | 难度  | 关键词                                                       | 已过遍数 |
+| ---- | ------------------------------------------------------------ | ----- | ------------------------------------------------------------ | -------- |
+| -    | 写一个关于 HashMap 的小总结                                  | -     | 设计，队列                                                   | 见下文   |
+| 242  | [有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/description/) | 💚简单 | [排序](https://leetcode-cn.com/tag/sort/)，[哈希表](https://leetcode-cn.com/tag/hash-table/) | 2        |
+| 1    | [两数之和](https://leetcode-cn.com/problems/two-sum/description/) | 💚简单 | 数组，哈希表                                                 | 6        |
+| 589  | [N 叉树的前序遍历](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/description/) | 💚简单 | [树](https://leetcode-cn.com/tag/tree/)                      | 1        |
+| 590  | [N 叉树的后序遍历](https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/) | 💚简单 | [树](https://leetcode-cn.com/tag/tree/)                      | 1        |
+| -    | [HeapSort](https://www.geeksforgeeks.org/heap-sort/)         | -     | 堆排序                                                       | -        |
+| 49   | [字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/) | 💛中等 | [哈希表](https://leetcode-cn.com/tag/hash-table/)，[字符串](https://leetcode-cn.com/tag/string/) | 2        |
+| 94   | [二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) | 💛中等 | [栈](https://leetcode-cn.com/tag/stack/)，[树](https://leetcode-cn.com/tag/tree/)，[哈希表](https://leetcode-cn.com/tag/hash-table/) | 1        |
+| 589  | [二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) | 💛中等 | [栈](https://leetcode-cn.com/tag/stack/)，[树](https://leetcode-cn.com/tag/tree/) | 1        |
+| 145  | [二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) | 🧡困难 | [栈](https://leetcode-cn.com/tag/stack/)，[树](https://leetcode-cn.com/tag/tree/)，[哈希表](https://leetcode-cn.com/tag/hash-table/) | 1        |
+| 429  | [N 叉树的层序遍历](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/) | 💛中等 | [树](https://leetcode-cn.com/tag/tree/)，BFS                 | 1        |
+| 264  | [丑数 II](https://leetcode-cn.com/problems/ugly-number-ii/)  | 💛中等 | 堆，数学，动态规划                                           | 1        |
+| 347  | [前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/) | 💛中等 | 堆，哈希表                                                   | 1        |
 
 
 
@@ -281,4 +275,14 @@ def bfs(graph, start, end):
 关于落差：刷题学到的东西在工作中只能用到1%，怎么办？
 
 关键是学到学习方法，使用**正确的学习方法**来学习业务的东西，并且基础扎实了，能够让自己更好地专注业务内容。
+
+
+
+## Python Dictobject总结
+
+与java HashMap类似的python对象为dict，它是用c实现的。源码：[Objects/dictobject.c](https://github.com/python/cpython/blob/master/Objects/dictobject.c)
+
+找到一篇非常不错的讲述python Dictobject的设计历史的文章：[Deep Exploration Into Python: Let's Review The Dict Module](https://www.buzzfeednews.com/article/andrewkelleher/deep-exploration-into-python-lets-review-the-dict-module)，其中提到一个非常有意思的事情：1993年到2001年这8年时间里，“for k in d” 也就是对key进行遍历的功能是不存在的。
+
+另外有两篇中文版的，不过写的没有上面那篇详细：[Python 源码阅读：dict](https://www.sohu.com/a/197647160_176628)，[Python源码剖析—Set容器](https://fanchao01.github.io/blog/2016/10/24/python-setobject/)
 
