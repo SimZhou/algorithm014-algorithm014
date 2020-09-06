@@ -195,7 +195,7 @@ def bfs(graph, start, end):
     queue = []				# 借助队列来实现BFS递归
     queue.append([start])	# 初始情况，把start节点加入队列
     
-    visited = set()			
+    visited = set()
     
     while queue:
         node = queue.pop()
