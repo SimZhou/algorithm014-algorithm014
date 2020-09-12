@@ -23,7 +23,7 @@
 |      | [最小基因变化](https://leetcode-cn.com/problems/minimum-genetic-mutation/#/description) |       |                         |          |
 | 22   | [括号生成](https://leetcode-cn.com/problems/generate-parentheses/#/description) | 💛中等 | 字符串，回溯            | 2        |
 |      | [在每个树行中找最大值](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/#/description) |       |                         |          |
-|      | [零钱兑换](https://leetcode-cn.com/problems/coin-change/)    | 💛中等 | <u>贪心法的反例</u>，DP |          |
+| 322  | [零钱兑换](https://leetcode-cn.com/problems/coin-change/)    | 💛中等 | <u>贪心法的反例</u>，DP | 1        |
 | 69   | [x 的平方根](https://leetcode-cn.com/problems/sqrtx/)        | 💚简单 | 数学，二分查找          | 2        |
 |      | [有效的完全平方数](https://leetcode-cn.com/problems/valid-perfect-square/) |       |                         |          |
 
@@ -35,18 +35,23 @@
 | 122  | [买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/description/) | 💚简单 | 贪心算法，数组   | 3        |
 | 455  | [分发饼干](https://leetcode-cn.com/problems/assign-cookies/description/) | 💚简单 | 贪心算法         | 2        |
 | 874  | [模拟行走机器人](https://leetcode-cn.com/problems/walking-robot-simulation/description/) | 💚简单 | 贪心             | 1        |
-|      | 使用二分查找，寻找半有序数组<br/>[4, 5, 6, 7, 0, 1, 2] 中间无序的地方 |       |                  |          |
 |      | [单词接龙](https://leetcode-cn.com/problems/word-ladder/description/) |       |                  |          |
 | 200  | [岛屿数量](https://leetcode-cn.com/problems/number-of-islands/) | 💛中等 | DFS，BFS，并查集 | 2        |
-|      | [扫雷游戏](https://leetcode-cn.com/problems/minesweeper/description/) |       |                  |          |
+| 529  | [扫雷游戏](https://leetcode-cn.com/problems/minesweeper/description/) | 💛中等 | DFS, BFS         | 1        |
 | 55   | [跳跃游戏](https://leetcode-cn.com/problems/jump-game/)      | 💛中等 | 贪心算法，数组   | 1        |
 | 33   | [搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | 💛中等 | 数组，二分       | 1        |
-|      | [搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/) |       |                  |          |
-|      | [寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/) |       |                  |          |
+| 74   | [搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/) | 💛中等 | 数组，二分       | 2        |
+| 153  | [寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/) | 💛中等 | 数组，二分       | 1        |
 |      | [单词接龙 II](https://leetcode-cn.com/problems/word-ladder-ii/description/) |       |                  |          |
-|      | [跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/) |       |                  |          |
+| 45   | [跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/) | 🧡困难 | 贪心，数组       | 2        |
 
+1 1
 
+2 2+1
+
+3 3+2+1
+
+10 1+10
 
 ## 视频笔记
 
@@ -140,4 +145,19 @@ while left <= right:
 
 
 ## 使用二分查找，寻找一个半有序数组[4, 5, 6, 7, 0, 1, 2] 中间无序的地方
+
+该问题等于：[153. 寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)
+
+```python
+class Solution:
+    def findMin(self, nums: List[int]) -> int:
+        left, right = 0, len(nums)-1
+        while left < right:
+            mid = (left + right) // 2
+            if nums[mid] > nums[right]:
+                left = mid + 1          # 这个用来寻找到切分点
+            else:
+                right = mid             # 这个用来向左收缩
+        return nums[left]
+```
 
