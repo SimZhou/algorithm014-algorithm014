@@ -1,10 +1,14 @@
 # 第3周学习笔记
 
-
-
 [写在20年初的校招面试心得与自学CS经验及找工作分享](https://github.com/conanhujinming/tips_for_interview/blob/master/README-zh_CN.md)
 
 [线段树入门](https://mp.weixin.qq.com/s?__biz=MzU2OTUyNzk1NQ==&mid=2247490915&idx=1&sn=a5db58060b20a9192607e2c5a7aac1ac&source=41#wechat_redirect)
+
+本周学习：
+
+- 递归
+- 分治
+- 回溯
 
 ## 刷题记录
 
